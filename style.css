@@ -22,3 +22,12 @@
 a {
     text-decoration: none;
 }
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0, 0.12);
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #ffffff !important;
+    background-color: #34046d !important;
+}
