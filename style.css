@@ -1,0 +1,24 @@
+
+
+
+.larghezza-iframe-spotify {
+    width: 100%;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+/* @media screen and (min-width: 992px) {
+    .larghezza-iframe-spotify {
+        width: 100%;
+    }
+} */
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 600px) {
+    .larghezza-iframe-spotify {
+        width: 70%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
