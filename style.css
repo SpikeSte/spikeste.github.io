@@ -15,7 +15,7 @@
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (min-width: 600px) {
     .larghezza-iframe-spotify {
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -30,4 +30,18 @@ a {
 .background-violet {
     color: #ffffff !important;
     background-color: #34046d !important;
+}
+.larghezzafooterscritta {
+    font-size: x-large;
+    
+}
+
+.ombranavbar {
+box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0, 0.12);
+}
+
+.coloregrandezzapadding {
+    max-width: -webkit-fill-available;
+    background-color: whitesmoke;
+    margin: unset;
 }
