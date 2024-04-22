@@ -3,6 +3,7 @@
 
 .larghezza-iframe-spotify {
     width: 100%;
+    
 }
 
 
@@ -16,13 +17,14 @@ a {
     text-decoration: none;
 }
 
-.w3-card, .w3-card-2 {
-    box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0, 0.12);
-}
-
 .background-violet {
     color: #ffffff !important;
     background-color: #34046d !important;
+}
+
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0, 0.12);
 }
 
 .ombranavbar {
@@ -42,7 +44,8 @@ box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0
 
 .letterefooter {
     font-size: small;
-    font-family:monospace;
+    font-family: system-ui;
+    font-weight: 500
 }
 
 
@@ -57,4 +60,8 @@ box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0
     font-size: 40px;
     position: relative;
     top: 30px;
+}
+
+.spazioiconesoundcloudplayer {
+    padding-bottom: 140px;
 }
