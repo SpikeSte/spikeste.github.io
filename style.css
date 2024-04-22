@@ -5,14 +5,7 @@
     width: 100%;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-/* @media screen and (min-width: 992px) {
-    .larghezza-iframe-spotify {
-        width: 100%;
-    }
-} */
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (min-width: 600px) {
     .larghezza-iframe-spotify {
         width: 100%;
@@ -31,10 +24,6 @@ a {
     color: #ffffff !important;
     background-color: #34046d !important;
 }
-.larghezzafooterscritta {
-    font-size: x-large;
-    
-}
 
 .ombranavbar {
 box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0, 0.12);
@@ -49,4 +38,23 @@ box-shadow: 0 13px 20px 10px rgba(0, 0, 0, 0.16), 0px 10px 20px 9px rgba(0, 0, 0
 @font-face {
     font-family: norse;
     src: url("/font/Norse-KaWl.otf");
+}
+
+.letterefooter {
+    font-size: small;
+    font-family:monospace;
+}
+
+
+@media screen and (min-width: 600px) {
+    .letterefooter {
+        font-size: larger;
+    }
+}
+
+.grandezzaicone
+{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
 }
